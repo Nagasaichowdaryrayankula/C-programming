@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+
+{
+ int a,b,sum;
+ printf("No of chairs in one row:",a);
+ scanf("%d",&a);
+ printf("No of chairs in second row:",b);
+ scanf("%d",&b);
+ sum=a+b;
+ printf("Total no of chairs :%d\n",sum);
+ return 0;
+ 
+}
+
+No of chairs in one row:15
+No of chairs in second row:18
+Total no of chairs :33
