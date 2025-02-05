@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+int main()
+
+{
+    int a,b,c,d,e,f;
+    printf("amount of one laptop:",a);
+    scanf("%d",&a);
+    printf("no of laptop:",b);
+    scanf("%d",&b);
+    printf("amount of one head phone :",c);
+    scanf("%d",&c);
+    printf("no of head phones:",d);
+    scanf("%d",&d);
+    printf("amount of one charger:",e);
+    scanf("%d",&e);
+    printf("no of chargers:",f);
+    scanf("%d",&f);
+    int total=a*b+c*d+e*f;
+    printf("Sub total:%d\n",total);
+    int Tax=(total)*0.1;
+    printf("tax amount:%d\n",Tax);
+    int all=total+Tax;
+    printf("Bill amount:%d\n",all);
+    return 0;
+}
+amount of one laptop:50000
+no of laptop:5
+amount of one head phone :400
+no of head phones:2
+amount of one charger:800
+no of chargers:3
+Sub total:253200
+tax amount:25320
+Bill amount:278520
