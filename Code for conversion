@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+  int a,b;
+  printf("Amount in USD:");
+  scanf("%d",&a);
+  b=a*83;
+  printf("Conversion of USD to INR:);
+  printf("Final Amount:");
+  return 0;
+}
+Amount in USD:10;
+Conversion of USD to INR:Final Amount:830
