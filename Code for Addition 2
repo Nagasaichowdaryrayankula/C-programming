@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+
+{
+ 
+ int a,b,sum;
+ printf("Old passengers on bus:",a);
+ scanf("%d",&a);
+ printf(" recently added passengers on bus:",b);
+ scanf("%d",&b);
+ sum=a+b;
+ printf("Total passengers on bus :%d\n",sum);
+ return 0;
+
+}
+
+Old passengers on bus:23
+Recently added passengers on bus:12
+Total passengers on bus :35
