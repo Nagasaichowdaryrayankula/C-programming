@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() 
+{
+    int a=4,b=5,c=4;
+   
+    printf("%d==%d is %d\n",a,c,a==c);
+    printf("%d!=%d is %d\n",a,b,a!=b);
+    printf("%d<%d is %d\n",a,b,a<c);
+    printf("%d>%d is %d\n",b,c,b>c);
+    printf("%d<=%d is %d\n",a,c,a<=c);
+    printf("%d>=%d is %d\n",a,b,a>=c);
+    return 0;
+    
+    
+}
+
+4==4 is 1
+4!=5 is 1
+4<5 is 0
+5>4 is 1
+4<=4 is 1
+4>=5 is 1
