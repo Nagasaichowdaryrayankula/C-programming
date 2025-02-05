@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+
+{
+ int a,b,diff;
+ printf("Age of Nagasai:",a);
+ scanf("%d",&a);
+ printf("Age of Priyanka:",b);
+ scanf("%d",&b);
+ diff=a-b;
+ printf("Age difference betwwen Nagasai and Priyanka:%d\n",diff);
+ return 0;
+ 
+}
+
+Age of Nagasai:50
+Age of Priyanka:45
+Age difference betwwen Nagasai and Priyanka:5
