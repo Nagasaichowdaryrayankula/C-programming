@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+
+{
+ 
+ int a,b,sum;
+ printf("No of friction books:",a);
+ scanf("%d",&a);
+ printf(" No of non-friction books:",b);
+ scanf("%d",&b);
+ sum=a+b;
+ printf("Total no of books :%d\n",sum);
+ return 0;
+}
+
+No of friction books:345
+No of non-friction books:278
+Total no of books :623
