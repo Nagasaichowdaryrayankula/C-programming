@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main()
+
+{
+ int a,b;
+ printf("value of a:",a);
+ scanf("%d",&a);
+ printf("value of b:",b);
+ scanf("%d",&b);
+ int area=a*b;
+ int perimeter=2*a+2*b;
+ printf("Area of a rectangle:%d\n",area);
+ printf("Perimeter of a reactangle:%d\n",perimeter);
+ return 0;
+}
+
+value of a:9
+value of b:8
+Area of a rectangle:72
+Perimeter of a reactangle:34
