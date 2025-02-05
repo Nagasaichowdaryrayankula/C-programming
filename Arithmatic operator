@@ -1,0 +1,37 @@
+ #include <stdio.h>
+
+int main()
+
+{
+    int a,b,c,d,e,f;
+    printf("Rice Price:",a);
+    scanf("%d",&a);
+    printf("Rice quan:",b);
+    scanf("%d",&b);
+    printf("Oil_Price:",c);
+    scanf("%d",&c);
+    printf("Oil quan:",d);
+    scanf("%d",&d);
+    printf("Sugar_Price:",e);
+    scanf("%d",&e);
+    printf("Sugar quan:",f);
+    scanf("%d",&f);
+    int total=a*b+c*d+e*f;
+    printf("Sub total:%d\n",total);
+    int Tax=(total)*0.05;
+    printf("tax amount:%d\n",Tax);
+    int all=total+Tax;
+    printf("Bill amount:%d\n",all);
+    return 0;
+}
+
+Rice Price:20
+Rice quan:2
+Oil_Price:30
+Oil quan:3
+Sugar_Price:50
+Sugar quan:4
+Sub total:330
+tax amount:16
+Bill amount:346
+}
