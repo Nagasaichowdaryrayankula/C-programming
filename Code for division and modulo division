@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+
+{
+    int a,b,mod,div;
+    a=5,b=10;
+    div=a/b;
+    printf("Answer for quotient:%d\n",div);
+    mod=a%b;
+    printf("Answer for remainder:%d\n",mod);
+    return 0;
+    
+}
+
+Answer for quotient:0
+Answer for remainder:5
