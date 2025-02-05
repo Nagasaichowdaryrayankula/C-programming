@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main()
+{
+    int a,b,c,d,e,f;
+    a=8000;
+    printf("Initial balance:%d\n",a);
+    printf("Amount deposited:");
+    scanf("%d",&b);
+    c=a+b;
+    printf("Balance:%d\n",c);
+    d=c-e;
+    printf("Amount withdraw:");
+    scanf("%d",&e);
+    f=c-e;
+    printf("Current balance:%d\n",f);
+    return 0;
+}
+Initial balance:8000
+Amount deposited:3000
+Balance:11000
+Amount withdraw:1000
+Current balance:10000
