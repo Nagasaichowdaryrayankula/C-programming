@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main()
+{
+int a,b,result;
+printf("enter the value of a=");
+scanf("%d",&a);
+printf("enter the value of b=");
+scanf("%d",&b);
+
+if(a<b)
+{
+
+printf("yeah..! its true");
+}
+else
+{
+    printf("noo..!its false");
+}
+return 0;
+}
+
+
+
+
+enter the value of a=3
+enter the value of b=5
+yeah..! its true
