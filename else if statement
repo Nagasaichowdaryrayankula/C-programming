@@ -1,0 +1,30 @@
+#include <stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("enter the number=");
+    scanf("%d",&a);
+    printf("enter the number=");
+    scanf("%d",&b);
+    if(a<b)
+    {
+        printf("answer is failure");
+
+    }
+else if(a!=b)
+{
+printf("answer is wrong");
+}
+else
+{
+    printf("answer is correct");
+}
+return 0;
+}
+
+
+
+
+enter the number=5
+enter the number=5
+answer is correct
