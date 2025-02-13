@@ -1,0 +1,26 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() 
+  {
+      int l,b,h,a;
+      printf("enter the l value=",l);
+      scanf("%d",&l); 
+      printf("enter the b value=",b);
+      scanf("%d",&b);
+      printf("enter the value of h=",h);
+      scanf("%d",&h);
+      a=0.5*(l*b*h);
+      printf("area of triangle=%d",a);
+      return 0;
+    
+  }  
+
+
+
+enter the l value=6
+enter the b value=9
+enter the value of h=9
+area of triangle=243
+
+=== Code Execution Successful ===
