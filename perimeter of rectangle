@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() 
+  {
+      int l,b,p;
+      printf("enter the l value=",l);
+      scanf("%d",&l); 
+      printf("enter the b value=",b);
+      scanf("%d",&b);
+      p=2*(l+b);
+      printf("perimeter of  of rectangle=%d",p);
+      return 0;
+    
+  }  
+
+
+
+
+
+
+  enter the l value=9
+enter the b value=9
+perimeter of  of rectangle=36
+
+=== Code Execution Successful ===
