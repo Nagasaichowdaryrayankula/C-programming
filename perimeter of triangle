@@ -1,0 +1,25 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() 
+  {
+      int p,a,b,c;
+      printf("enter the a value=");
+      scanf("%d",&a); 
+      printf("enter the b value=");
+      scanf("%d",&b);
+      printf("enter the value of c=");
+      scanf("%d",&c);
+     
+      p=a+b+c;
+      printf("perimetr of triangle=%d",p);
+      return 0;
+    
+  }  
+
+
+
+  enter the a value=4
+enter the b value=5
+enter the value of c=6
+perimetr of triangle=15
