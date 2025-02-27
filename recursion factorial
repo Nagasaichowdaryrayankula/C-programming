@@ -1,0 +1,24 @@
+#include<stdio.h>
+long int multiplynumbers(int n);
+int main()
+{ 
+    int n;
+    printf("enter a positive integer:");
+    scanf("%d",&n);
+    printf("factorial of %d=%ld",n,multiplynumbers(n));
+    return 0;
+}
+long int multiplynumbers(int n)
+{ 
+    if(n>=1)
+    return
+    n*multiplynumbers(n-1);
+    else
+    return 1;
+}
+
+
+enter a positive integer:4
+factorial of 4=24
+
+=== Code Execution Successful ===
